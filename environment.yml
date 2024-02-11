@@ -1,0 +1,10 @@
+name: altair_env
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.10
+  - pip:
+    - altair==5.2.0
+    - pandas==2.0.3
+prefix: /opt/homebrew/anaconda3/envs/altair_env
